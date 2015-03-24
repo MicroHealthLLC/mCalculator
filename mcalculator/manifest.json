@@ -1,0 +1,20 @@
+{
+  "name": "mCalculator",
+  "description": "A simple calculator for MicroHealth Employees.",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "version": "1.2",
+  "offline_enabled": true,
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "permissions" : [
+    "clipboardWrite"
+  ],
+  "icons": {
+    "16": "assets/calc16.png",
+    "128": "assets/calc128.png"
+  }
+}
